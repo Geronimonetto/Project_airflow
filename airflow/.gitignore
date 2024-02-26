@@ -2,3 +2,4 @@ docker-compose.yaml
 docker-compose
 airflow/docker-compose.yaml
 airflow/docker-compose
+airflow/dags/__pycache__/
