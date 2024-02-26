@@ -18,7 +18,7 @@ Resumindo, o fluxo de trabalho consistirá em:
 
 ### Passo a Passo
 
-Primeiramente será necessário criar uma variável no Airflow que será o caminho onde estão localizado(s) o(s) arquivo(s) que serão como base para o projeto.
+Será necessário criar uma variável no Airflow que será o caminho onde estão localizado(s) o(s) arquivo(s) que serão como base para o projeto.
 
 1. **Airflow** > Admin > Variables
 2. **key**: path_file, **Val**: caminho ex: /opt/airflow/data/data.json  - este caminho serão criados os arquivos da turbina
