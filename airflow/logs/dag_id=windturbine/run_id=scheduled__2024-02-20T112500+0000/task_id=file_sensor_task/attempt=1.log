@@ -1,0 +1,217 @@
+[2024-02-20T11:30:01.821+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: windturbine.file_sensor_task scheduled__2024-02-20T11:25:00+00:00 [queued]>
+[2024-02-20T11:30:01.833+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: windturbine.file_sensor_task scheduled__2024-02-20T11:25:00+00:00 [queued]>
+[2024-02-20T11:30:01.833+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-20T11:30:01.834+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2024-02-20T11:30:01.834+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-20T11:30:01.854+0000] {taskinstance.py:1300} INFO - Executing <Task(FileSensor): file_sensor_task> on 2024-02-20 11:25:00+00:00
+[2024-02-20T11:30:01.859+0000] {standard_task_runner.py:55} INFO - Started process 676 to run task
+[2024-02-20T11:30:01.863+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'windturbine', 'file_sensor_task', 'scheduled__2024-02-20T11:25:00+00:00', '--job-id', '388', '--raw', '--subdir', 'DAGS_FOLDER/windturbine.py', '--cfg-path', '/tmp/tmpw_qiv_dq']
+[2024-02-20T11:30:01.864+0000] {standard_task_runner.py:83} INFO - Job 388: Subtask file_sensor_task
+[2024-02-20T11:30:01.964+0000] {task_command.py:388} INFO - Running <TaskInstance: windturbine.file_sensor_task scheduled__2024-02-20T11:25:00+00:00 [running]> on host 3718df233244
+[2024-02-20T11:30:02.090+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=geronimomorais1617@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=windturbine
+AIRFLOW_CTX_TASK_ID=file_sensor_task
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-20T11:25:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-02-20T11:25:00+00:00
+[2024-02-20T11:30:02.106+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:30:02.107+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:30:12.118+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:30:12.119+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:30:22.147+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:30:22.161+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:30:32.186+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:30:32.187+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:30:42.222+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:30:42.297+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:30:52.340+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:30:52.341+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:31:02.381+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:31:02.399+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:31:12.427+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:31:12.428+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:31:22.522+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:31:22.537+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:31:32.559+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:31:32.560+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:31:42.583+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:31:42.584+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:31:52.618+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:31:52.619+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:32:02.654+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:32:02.657+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:32:12.692+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:32:12.698+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:32:16.630+0000] {local_task_job.py:273} WARNING - State of this instance has been externally set to queued. Terminating instance.
+[2024-02-20T11:32:16.669+0000] {process_utils.py:133} INFO - Sending Signals.SIGTERM to group 676. PIDs of all processes in the group: [676]
+[2024-02-20T11:32:16.673+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 676
+[2024-02-20T11:32:16.685+0000] {taskinstance.py:1479} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-02-20T11:32:16.759+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/base.py", line 226, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1481, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-02-20T11:32:16.811+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=windturbine, task_id=file_sensor_task, execution_date=20240220T112500, start_date=, end_date=20240220T113216
+[2024-02-20T11:32:16.906+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 388 for task file_sensor_task ((psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dag_run_dag_id_execution_date_key"
+DETAIL:  Key (dag_id, execution_date)=(windturbine, 2024-02-20 11:25:00+00) already exists.
+
+[SQL: INSERT INTO dag_run (id, dag_id, queued_at, execution_date, start_date, end_date, state, run_id, creating_job_id, external_trigger, run_type, conf, data_interval_start, data_interval_end, last_scheduling_decision, dag_hash, log_template_id, updated_at) VALUES (%(id)s, %(dag_id)s, %(queued_at)s, %(execution_date)s, %(start_date)s, %(end_date)s, %(state)s, %(run_id)s, %(creating_job_id)s, %(external_trigger)s, %(run_type)s, %(conf)s, %(data_interval_start)s, %(data_interval_end)s, %(last_scheduling_decision)s, %(dag_hash)s, %(log_template_id)s, %(updated_at)s)]
+[parameters: {'id': 179, 'dag_id': 'windturbine', 'queued_at': datetime.datetime(2024, 2, 20, 11, 30, 0, 928126, tzinfo=Timezone('UTC')), 'execution_date': datetime.datetime(2024, 2, 20, 11, 25, tzinfo=Timezone('UTC')), 'start_date': datetime.datetime(2024, 2, 20, 11, 30, 0, 953377, tzinfo=Timezone('UTC')), 'end_date': None, 'state': 'running', 'run_id': 'scheduled__2024-02-20T11:25:00+00:00', 'creating_job_id': 381, 'external_trigger': False, 'run_type': 'scheduled', 'conf': <psycopg2.extensions.Binary object at 0x7f38dc1269f0>, 'data_interval_start': datetime.datetime(2024, 2, 20, 11, 25, tzinfo=Timezone('UTC')), 'data_interval_end': datetime.datetime(2024, 2, 20, 11, 30, tzinfo=Timezone('UTC')), 'last_scheduling_decision': datetime.datetime(2024, 2, 20, 11, 30, 1, 199395, tzinfo=Timezone('UTC')), 'dag_hash': 'e93e11c4f4a55bc32feb6c7ea9b757f8', 'log_template_id': 2, 'updated_at': datetime.datetime(2024, 2, 20, 11, 30, 1, 332954, tzinfo=Timezone('UTC'))}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 676)
+[2024-02-20T11:32:17.024+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=676, status='terminated', exitcode=1, started='11:30:01') (676) terminated with exit code 1
+[2024-02-20T11:32:27.006+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: windturbine.file_sensor_task scheduled__2024-02-20T11:25:00+00:00 [queued]>
+[2024-02-20T11:32:27.138+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: windturbine.file_sensor_task scheduled__2024-02-20T11:25:00+00:00 [queued]>
+[2024-02-20T11:32:27.142+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-20T11:32:27.144+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2024-02-20T11:32:27.155+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-20T11:32:27.353+0000] {taskinstance.py:1300} INFO - Executing <Task(FileSensor): file_sensor_task> on 2024-02-20 11:25:00+00:00
+[2024-02-20T11:32:27.376+0000] {standard_task_runner.py:55} INFO - Started process 813 to run task
+[2024-02-20T11:32:27.434+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'windturbine', 'file_sensor_task', 'scheduled__2024-02-20T11:25:00+00:00', '--job-id', '389', '--raw', '--subdir', 'DAGS_FOLDER/windturbine.py', '--cfg-path', '/tmp/tmpaicl6k35']
+[2024-02-20T11:32:27.437+0000] {standard_task_runner.py:83} INFO - Job 389: Subtask file_sensor_task
+[2024-02-20T11:32:28.452+0000] {task_command.py:388} INFO - Running <TaskInstance: windturbine.file_sensor_task scheduled__2024-02-20T11:25:00+00:00 [running]> on host 3718df233244
+[2024-02-20T11:32:29.391+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=geronimomorais1617@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=windturbine
+AIRFLOW_CTX_TASK_ID=file_sensor_task
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-20T11:25:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-02-20T11:25:00+00:00
+[2024-02-20T11:32:29.491+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:32:29.502+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:32:39.567+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:32:39.584+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:32:49.668+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:32:49.671+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:32:59.722+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:32:59.723+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:33:09.783+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:33:09.802+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:33:19.821+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:33:19.822+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:33:29.852+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:33:29.855+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:33:39.875+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:33:39.876+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:33:49.893+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:33:49.894+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:33:59.915+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:33:59.916+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:34:09.932+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:34:09.933+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:34:19.958+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:34:19.959+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:34:29.986+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:34:29.987+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:34:40.008+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:34:40.009+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:34:50.027+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:34:50.028+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:35:00.064+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:35:00.066+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:35:10.085+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:35:10.086+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:35:20.094+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:35:20.095+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:35:30.117+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:35:30.118+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:35:40.143+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:35:40.144+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:35:50.167+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:35:50.168+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:36:00.182+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:36:00.183+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:36:10.204+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:36:10.205+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:36:20.229+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:36:20.230+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:36:30.252+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:36:30.253+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:36:40.277+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:36:40.278+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:36:50.292+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:36:50.293+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:37:00.313+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:37:00.314+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:37:10.350+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:37:10.353+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:37:20.383+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:37:20.385+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:37:30.408+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:37:30.409+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:37:40.436+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:37:40.437+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:37:50.469+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:37:50.473+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:38:00.509+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:38:00.510+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:38:10.537+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:38:10.539+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:38:20.566+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:38:20.568+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:38:30.589+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:38:30.590+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:38:40.615+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:38:40.616+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:38:50.636+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:38:50.636+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:39:00.661+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:39:00.662+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:39:10.690+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:39:10.692+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:39:20.713+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:39:20.714+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:39:30.743+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:39:30.744+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:39:40.777+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:39:40.778+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:39:50.800+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:39:50.802+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:40:00.824+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:40:00.825+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:40:10.843+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:40:10.844+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:40:20.868+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:40:20.869+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:40:30.883+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:40:30.884+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:40:40.913+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:40:40.914+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:40:50.934+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:40:50.935+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:41:00.960+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:41:00.961+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:41:10.982+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:41:10.983+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:41:21.005+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:41:21.006+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:41:31.033+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:41:31.034+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:41:41.058+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:41:41.059+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:41:51.076+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:41:51.077+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:42:01.110+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:42:01.112+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:42:11.130+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:42:11.131+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:42:21.155+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:42:21.156+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:42:31.180+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:42:31.181+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:42:41.197+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:42:41.198+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:42:51.220+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:42:51.221+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:43:01.241+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:43:01.242+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json
+[2024-02-20T11:43:11.261+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-20T11:43:11.262+0000] {filesystem.py:64} INFO - Poking for file D:/Github/Projeto_Airflow/***/data/dados.json

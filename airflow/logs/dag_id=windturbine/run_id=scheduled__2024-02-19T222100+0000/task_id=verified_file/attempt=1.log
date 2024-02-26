@@ -1,0 +1,468 @@
+[2024-02-19T22:24:04.783+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: windturbine.verified_file scheduled__2024-02-19T22:21:00+00:00 [queued]>
+[2024-02-19T22:24:04.818+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: windturbine.verified_file scheduled__2024-02-19T22:21:00+00:00 [queued]>
+[2024-02-19T22:24:04.819+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-19T22:24:04.820+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2024-02-19T22:24:04.821+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-19T22:24:04.878+0000] {taskinstance.py:1300} INFO - Executing <Task(FileSensor): verified_file> on 2024-02-19 22:21:00+00:00
+[2024-02-19T22:24:04.887+0000] {standard_task_runner.py:55} INFO - Started process 1938 to run task
+[2024-02-19T22:24:04.897+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'windturbine', 'verified_file', 'scheduled__2024-02-19T22:21:00+00:00', '--job-id', '333', '--raw', '--subdir', 'DAGS_FOLDER/windturbine.py', '--cfg-path', '/tmp/tmp_alz18ji']
+[2024-02-19T22:24:04.900+0000] {standard_task_runner.py:83} INFO - Job 333: Subtask verified_file
+[2024-02-19T22:24:05.119+0000] {task_command.py:388} INFO - Running <TaskInstance: windturbine.verified_file scheduled__2024-02-19T22:21:00+00:00 [running]> on host 425a6ccfa80e
+[2024-02-19T22:24:05.421+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=geronimomorais1617@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=windturbine
+AIRFLOW_CTX_TASK_ID=verified_file
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-19T22:21:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-02-19T22:21:00+00:00
+[2024-02-19T22:24:05.457+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:24:05.458+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:24:15.486+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:24:15.487+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:24:25.514+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:24:25.516+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:24:35.547+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:24:35.551+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:24:45.571+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:24:45.572+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:24:55.603+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:24:55.604+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:25:05.630+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:25:05.631+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:25:15.655+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:25:15.656+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:25:25.682+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:25:25.692+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:25:35.728+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:25:35.729+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:25:45.756+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:25:45.757+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:25:55.790+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:25:55.793+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:26:05.823+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:26:05.825+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:26:15.849+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:26:15.851+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:26:25.879+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:26:25.881+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:26:35.899+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:26:35.901+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:26:45.926+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:26:45.928+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:26:55.956+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:26:55.957+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:27:05.979+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:27:05.980+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:27:16.007+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:27:16.008+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:27:26.035+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:27:26.036+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:27:36.057+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:27:36.058+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:27:46.081+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:27:46.082+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:27:56.108+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:27:56.109+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:28:06.141+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:28:06.146+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:28:16.186+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:28:16.191+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:28:26.206+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:28:26.207+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:28:36.229+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:28:36.230+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:28:46.249+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:28:46.250+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:28:56.269+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:28:56.271+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:29:06.295+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:29:06.296+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:29:16.319+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:29:16.320+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:29:26.339+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:29:26.341+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:29:36.355+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:29:36.356+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:29:46.386+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:29:46.389+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:29:56.411+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:29:56.412+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:30:06.437+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:30:06.439+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:30:16.455+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:30:16.457+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:30:26.478+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:30:26.479+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:30:36.495+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:30:36.496+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:30:46.525+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:30:46.527+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:30:56.540+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:30:56.541+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:31:06.565+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:31:06.566+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:31:16.592+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:31:16.594+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:31:26.617+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:31:26.619+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:31:36.643+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:31:36.644+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:31:46.672+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:31:46.673+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:31:56.696+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:31:56.697+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:32:06.717+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:32:06.718+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:32:16.744+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:32:16.748+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:32:26.761+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:32:26.762+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:32:36.785+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:32:36.787+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:32:46.813+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:32:46.814+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:32:56.835+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:32:56.837+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:33:06.854+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:33:06.855+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:33:16.880+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:33:16.881+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:33:26.908+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:33:26.909+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:33:36.938+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:33:36.951+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:33:46.983+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:33:46.984+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:33:57.001+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:33:57.002+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:34:07.056+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:34:07.064+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:34:17.079+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:34:17.080+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:34:27.105+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:34:27.106+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:34:37.126+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:34:37.127+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:34:47.146+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:34:47.148+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:34:57.170+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:34:57.171+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:35:07.196+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:35:07.197+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:35:17.221+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:35:17.222+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:35:27.238+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:35:27.239+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:35:37.266+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:35:37.267+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:35:47.290+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:35:47.291+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:35:57.316+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:35:57.317+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:36:07.344+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:36:07.346+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:36:17.373+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:36:17.374+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:36:27.398+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:36:27.400+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:36:37.419+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:36:37.420+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:36:47.456+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:36:47.461+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:36:57.481+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:36:57.482+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:37:07.495+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:37:07.496+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:37:17.522+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:37:17.523+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:37:27.547+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:37:27.549+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:37:37.574+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:37:37.576+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:37:47.601+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:37:47.602+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:37:57.620+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:37:57.621+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:38:07.646+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:38:07.647+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:38:17.669+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:38:17.671+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:38:27.700+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:38:27.702+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:38:37.725+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:38:37.726+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:38:47.748+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:38:47.750+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:38:57.769+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:38:57.770+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:39:07.789+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:39:07.790+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:39:17.827+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:39:17.833+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:39:27.857+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:39:27.861+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:39:37.884+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:39:37.885+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:39:47.923+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:39:47.925+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:39:57.947+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:39:57.948+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:40:07.972+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:40:07.973+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:40:17.997+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:40:17.998+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:40:28.015+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:40:28.016+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:40:38.041+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:40:38.042+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:40:48.064+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:40:48.066+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:40:58.093+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:40:58.094+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:41:08.118+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:41:08.119+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:41:18.138+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:41:18.138+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:41:28.158+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:41:28.159+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:41:38.181+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:41:38.182+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:41:48.198+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:41:48.199+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:41:58.216+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:41:58.217+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:42:08.237+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:42:08.238+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:42:18.260+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:42:18.261+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:42:28.284+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:42:28.285+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:42:38.310+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:42:38.311+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:42:48.332+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:42:48.333+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:42:58.358+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:42:58.359+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:43:08.386+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:43:08.387+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:43:18.412+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:43:18.414+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:43:28.452+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:43:28.457+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:43:38.477+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:43:38.478+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:43:48.499+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:43:48.501+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:43:58.528+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:43:58.540+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:44:08.563+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:44:08.565+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:44:18.588+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:44:18.589+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:44:28.614+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:44:28.615+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:44:38.646+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:44:38.648+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:44:48.665+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:44:48.666+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:44:58.748+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:44:58.765+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:45:08.827+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:45:08.835+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:45:18.906+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:45:18.914+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:45:28.934+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:45:28.935+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:45:38.966+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:45:38.972+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:45:49.004+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:45:49.007+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:45:59.026+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:45:59.027+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:46:09.058+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:46:09.059+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:46:19.073+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:46:19.074+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:46:29.096+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:46:29.097+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:46:39.119+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:46:39.120+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:46:49.139+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:46:49.140+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:46:59.166+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:46:59.168+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:47:09.190+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:47:09.192+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:47:19.216+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:47:19.217+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:47:29.247+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:47:29.248+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:47:39.265+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:47:39.266+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:47:49.286+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:47:49.287+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:47:59.308+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:47:59.309+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:48:09.326+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:48:09.327+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:48:19.356+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:48:19.357+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:48:29.375+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:48:29.376+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:48:39.396+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:48:39.397+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:48:49.433+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:48:49.434+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:48:59.457+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:48:59.458+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:49:09.476+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:49:09.477+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:49:19.502+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:49:19.512+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:49:29.565+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:49:29.566+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:49:39.613+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:49:39.615+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:49:49.650+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:49:49.714+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:49:59.827+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:49:59.828+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:50:09.871+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:50:09.873+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:50:19.888+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:50:19.889+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:50:29.911+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:50:29.912+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:50:39.930+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:50:39.931+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:50:49.955+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:50:49.956+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:50:59.972+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:50:59.973+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:51:09.993+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:51:09.994+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:51:20.015+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:51:20.015+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:51:30.036+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:51:30.037+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:51:40.053+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:51:40.053+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:51:50.073+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:51:50.074+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:52:00.089+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:52:00.090+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:52:10.113+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:52:10.114+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:52:20.156+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:52:20.166+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:52:30.188+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:52:30.189+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:52:40.217+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:52:40.219+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:52:50.241+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:52:50.242+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:53:00.288+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:53:00.290+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:53:10.306+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:53:10.307+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:53:20.328+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:53:20.329+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:53:30.345+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:53:30.346+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:53:40.373+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:53:40.374+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:53:50.405+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:53:50.406+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:54:00.445+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:54:00.447+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:54:10.472+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:54:10.473+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:54:20.508+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:54:20.509+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:54:30.525+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:54:30.526+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:54:40.545+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:54:40.545+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:54:50.591+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:54:50.593+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:55:00.612+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:55:00.613+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:55:10.634+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:55:10.635+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:55:20.667+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:55:20.669+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:55:30.683+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:55:30.684+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:55:40.706+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:55:40.707+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:55:50.725+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:55:50.726+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:56:00.745+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:56:00.746+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:56:10.761+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:56:10.762+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:56:20.781+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:56:20.782+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:56:30.801+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:56:30.802+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:56:40.819+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:56:40.819+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:56:50.836+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:56:50.837+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:57:00.857+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:57:00.858+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:57:10.869+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:57:10.869+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:57:20.894+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:57:20.895+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:57:30.919+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:57:30.921+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:57:40.939+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:57:40.940+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:57:50.964+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:57:50.966+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:58:00.987+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:58:00.989+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:58:11.011+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:58:11.011+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:58:21.029+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:58:21.030+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:58:31.048+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:58:31.049+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:58:41.082+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:58:41.085+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:58:51.107+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:58:51.108+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:59:01.139+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:59:01.143+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:59:11.169+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:59:11.171+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:59:21.197+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:59:21.202+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:59:31.222+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:59:31.223+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:59:41.248+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:59:41.250+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T22:59:51.267+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T22:59:51.268+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T23:00:01.293+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T23:00:01.295+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T23:00:11.315+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T23:00:11.316+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T23:00:21.336+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T23:00:21.337+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T23:00:31.350+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T23:00:31.351+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T23:00:41.367+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T23:00:41.368+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T23:00:51.388+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T23:00:51.389+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T23:01:01.408+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T23:01:01.409+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T23:01:11.445+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T23:01:11.446+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
+[2024-02-19T23:01:21.486+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2024-02-19T23:01:21.594+0000] {filesystem.py:64} INFO - Poking for file C:/Users/geron/Documents/dados/dados.json
